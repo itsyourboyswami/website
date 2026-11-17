@@ -1,0 +1,9 @@
+{
+  "name": "3p-compressor-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website and upload service for 3P Compressor",
+  "scripts": { "start": "node server.js", "build:compressor:windows": "build-p3cli.bat" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^5.1.0", "multer": "^2.0.2", "nodemailer": "^7.0.5" }
+}
